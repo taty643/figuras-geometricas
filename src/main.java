@@ -19,5 +19,9 @@ public class main {
         Cuadrado c2=new Cuadrado ("Azul", 2.3);
         System.out.println("El Area del cuadrado 2 es: "+c2.calcularArea());
         System.out.println("El color del cuadrado 2 es: "+c2.getColor());
+
+        triangulo tri=new triangulo ("verde", 3,4);
+        System.out.println("El area del triangulo 1 es: "+tri.calcularArea());
+        System.out.println("El color del triangulo 1 es: "+tri.getColor());
     }
 }

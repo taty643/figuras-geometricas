@@ -9,6 +9,8 @@ public class Cuadrado extends figura{
 
     @Override
     public double calcularArea() {
-        return lado * lado;
+        double area;
+        area=lado*lado;
+        return area;
     }
 }
